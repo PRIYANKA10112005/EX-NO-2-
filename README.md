@@ -53,7 +53,7 @@ def find_position(matrix, ch):
                 return row, col
     return None
 def preprocess_text(text):
-    text = text.upper().replace("J", "I")
+    text = text.upper().replace("J", "I") 
     prepared = ""
     i = 0
     while i < len(text):
